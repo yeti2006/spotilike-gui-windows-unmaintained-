@@ -1,0 +1,12 @@
+SpotiLike/test.py
+SpotiLike/spotilikesuper.py
+credentials.py
+assets/dark_eerie.ico
+assets/dc.ico
+assets/hardstyle.ico
+assets/hyperpop.ico
+exe/
+.cache
+setup.iss
+SpotiLike/build/
+setup.py
