@@ -115,7 +115,7 @@ Yeah, just like that.
 Here's me adding a test playlist I created to the config file, saving it, and doing the hotkey. Yes, it works like expected. 
 
 
-![walkthrough](./readme/SpotiLike.gif)
+![Wait till this loads lmao this maybe big](./readme/SpotiLike.gif)
 
 
 **Wait, can I make this open on startup somehow?**
