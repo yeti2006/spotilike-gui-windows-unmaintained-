@@ -18,7 +18,7 @@ ___
 
 # Download
 You can download SpotiLike through MediaFire here:
-[Click Me]
+DOWNLOAD IS REMOVED AND WILL BE COMING SOON.
 
 # Features
 
