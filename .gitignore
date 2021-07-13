@@ -9,4 +9,4 @@ exe/
 .cache
 setup.iss
 SpotiLike/build/
-setup.py
+SpotiLike/exe/

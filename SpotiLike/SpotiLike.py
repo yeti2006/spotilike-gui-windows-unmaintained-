@@ -1,5 +1,5 @@
-from PyQt5 import QtWidgets, uic
-from PyQt5.QtWidgets import QSystemTrayIcon, QAction, qApp, QMenu, QMessageBox
+from PyQt5 import uic
+from PyQt5.QtWidgets import QSystemTrayIcon, QAction, qApp, QMenu, QMessageBox, QMainWindow, QApplication
 from PyQt5.QtCore import pyqtSlot, QThread, pyqtSignal, QObject
 from PyQt5.QtGui import QIcon
 
@@ -28,6 +28,8 @@ log.addHandler(handler)
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public" # Initliaze Scopes. To read, current playing
 
 
+
+
 HOTKEY_PREFIXES = [
     'ctrl',
     'alt',
@@ -52,7 +54,7 @@ def match(keys:str):
     return "+".join(result)
 
 
-class Ui(QtWidgets.QMainWindow):
+class Ui(QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
         uic.loadUi('./interface.ui', self)
@@ -355,8 +357,8 @@ class WatchConfig(QThread):
 
 def show_exception_box(log_msg):
 
-    if QtWidgets.QApplication.instance() is not None:
-            errorbox = QtWidgets.QMessageBox()
+    if QApplication.instance() is not None:
+            errorbox = QMessageBox()
             errorbox.setIcon(QMessageBox.Critical)
             errorbox.setText("Oops. Something unexpected happened in SpotiLike:\n{0}\n\nClicking Ok to restart!".format(log_msg))
             errorbox.setStandardButtons(QMessageBox.Ok)
@@ -393,7 +395,7 @@ qt_exception_hook = UncaughtHook()
         
 if __name__ == "__main__":
     
-    app = QtWidgets.QApplication(sys.argv)
+    app = QApplication(sys.argv)
     app.setWindowIcon(QIcon('./icon.ico'))
     window = Ui()
     app.exec_()

