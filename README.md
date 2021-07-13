@@ -1,6 +1,6 @@
 # SpotiLike 💚
 
-[Click Me]: https://www.mediafire.com/file/akeknk82cn20fqp/SpotiLike_Setup.rar/file
+[Click Me]: https://www.mediafire.com/file/xqdh8t7zxfdlonr/SpotiLike_Setup.rar/file
 
 Hello. 👋
 
@@ -18,7 +18,7 @@ ___
 
 # Download
 You can download SpotiLike through MediaFire here:
-DOWNLOAD IS REMOVED AND WILL BE COMING SOON.
+[Click Me]
 
 # Features
 

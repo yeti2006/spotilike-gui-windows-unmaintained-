@@ -28,8 +28,6 @@ log.addHandler(handler)
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public" # Initliaze Scopes. To read, current playing
 
 
-
-
 HOTKEY_PREFIXES = [
     'ctrl',
     'alt',
@@ -384,8 +382,7 @@ class UncaughtHook(QObject):
             sys.__excepthook__(exc_type, exc_value, exc_traceback)
         else:
             exc_info = (exc_type, exc_value, exc_traceback)
-            log_msg = '\n'.join([''.join(traceback.format_tb(exc_traceback)),
-                                 '{0}: {1}'.format(exc_type.__name__, exc_value)])
+            log_msg = f"{exc_type}: {exc_value}"
             log.critical("Uncaught exception:\n {0}".format(log_msg), exc_info=exc_info)
 
  
