@@ -18,6 +18,7 @@ from watchgod import watch, Change
 
 import os
 
+from urllib.request import urlretrieve
 from fuzzywuzzy import process
 from string import ascii_lowercase as english
 
@@ -26,7 +27,6 @@ handler = logging.StreamHandler(stream=sys.stdout)
 log.addHandler(handler)
 
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public" # Initliaze Scopes. To read, current playing
-
 
 HOTKEY_PREFIXES = [
     'ctrl',
@@ -64,6 +64,10 @@ class Ui(QMainWindow):
                                                scope=scope))
         self.sp.me()
         print("ok")
+        
+        
+        self.config = configparser.ConfigParser()
+        self.config.read("./config.ini")
         self.tray_icon = QSystemTrayIcon(self)
         self.tray_icon.setIcon(
             QIcon('./icon.ico'))
@@ -92,7 +96,6 @@ class Ui(QMainWindow):
         
         # self.runnable = GetPLaylists(self, (self.sp, self.read_config()))
         # self.runnable.start()
-        self.notify("Fetching tracks...")
         self.playlistx = self.getTracks(self.read_config())
         self.playlist_tracks(self.playlistx)
         # self.runnable.signal.playlists.connect(self.playlist_tracks)
@@ -120,12 +123,6 @@ class Ui(QMainWindow):
         )
             
     def reload(self):
-        self.tray_icon.showMessage(
-            "SpotiLike",
-            "Reloaded SpotiLike.",
-            QIcon('./icon.ico'),
-            2000
-        )
         python = sys.executable
         os.execl(python, python, * sys.argv)
         
@@ -144,7 +141,8 @@ class Ui(QMainWindow):
                 500
             )
         
-    def notify(self, msg, icon="default"):
+    def notify(self, msg, icon="song"):
+        
         icon = f"./assets/{icon}.ico"
         self.tray_icon.showMessage(
                 "SpotiLike",
@@ -156,7 +154,7 @@ class Ui(QMainWindow):
     # @pyqtSlot(dict)
     def playlist_tracks(self, value):
         log.info("Recieved tracks")
-        self.notify("SpotiLike is ready to go!")
+        self.notify("SpotiLike is ready to go!", "default")
         self.songs = value
         self.Thread = MainThread({name: key['key'] for name,key in self.read_config().items()}, self.like_key())
         self.Thread.start()  
@@ -175,59 +173,60 @@ class Ui(QMainWindow):
     def like(self, playlist:bool=False):
         current = self.sp.current_playback()
         if not current or current['item'] is None:
-           self.notify('Not playing anything')
+           self.notify('Not playing anything', "default")
            return
         try:
+            
+            urlretrieve(current['item']['album']['images'][0]['url'], "./assets/song.ico")
+                
             self.sp.current_user_saved_tracks_add(tracks=[current['item']['id']])
             if not playlist:
-                self.notify(f"❤ Saved [{current['item']['name']}] by {current['item']['album']['artists'][0]['name']} to Liked Songs.",
-                            "heart")
+                self.notify(f"❤ Saved [{current['item']['name']}] by {current['item']['album']['artists'][0]['name']} to Liked Songs")
         except Exception as e:
-            self.notify(f"An unexpected error occured. Error: {e}. Try Again?", "error")
+            self.notify(f"An unexpected error occured. Error: {e.args[0]}. Try Again?", "error")
             
     def playlist(self, name):
-        
         current = self.sp.current_playback()
         if not current or current['item'] is None:
-            self.notify("Not playing anything")
+            self.notify("Not playing anything", "default")
             return
         
         if current['item']['id'] in self.songs[name]:
-            return self.notify(f"[{current['item']['name']}] by {current['item']['album']['artists'][0]['name']} is saved in [{name}] already.",
-                               name)
+            return self.notify(f"[{current['item']['name']}] by {current['item']['album']['artists'][0]['name']} is saved in [{name}] already.")
         try:
+            
+            urlretrieve(current['item']['album']['images'][0]['url'], "./assets/song.ico")
+            
             playlist = name
 
             self.songs[name].append(current['item']['id'])
             
             self.sp.playlist_add_items(self.PLAYLISTS[name]['playlist'], items=[current['item']['id']])
-            self.notify(f"❤ Saved [{current['item']['name']}] by {current['item']['album']['artists'][0]['name']} to [{playlist}] playlist.",
-                        name)
+            self.notify(f"❤ Saved [{current['item']['name']}] by {current['item']['album']['artists'][0]['name']} to [{playlist}] playlist.")
         except Exception as e:
-            self.notify(f"An unexpected error occured. Error: {e}. Try Again?", "error")
+            self.notify(f"An unexpected error occured. Error: {e.args[0]}. Try Again?", "error")
             
     
     def read_config(self):
-        config = configparser.ConfigParser()
-        config.read("./config.ini")
             
-        filtered = [x for x in config if not x.startswith("DEFAULT") and not x.startswith("Liked Songs")]
+        filtered = [x for x in self.config if not x.startswith("DEFAULT") and not x.startswith("Liked Songs") and not x.startswith("Media")]
 
         PLAYLISTS = {}
         for playlist in filtered:
             PLAYLISTS[playlist] = {}
-            for k,v in config[playlist].items():
+            for k,v in self.config[playlist].items():
                 new = {k:v}
                 PLAYLISTS[playlist].update(new)
         try:
             for k,v in PLAYLISTS.items():
                 v['key'] = format(match(v['key']))
-                v['playlist'] = v['playlist'] if len(v['playlist']) == 22 else v['playlist'].split("/")[4] 
+                v['playlist'] = v['playlist'] if len(v['playlist']) == 22 else (v['playlist'].split("/")[4] if "?si=" not in v['playlist'] else v['playlist'].split("?si=")[0]) 
         except KeyError:
             return {}  
 
         self.PLAYLISTS = PLAYLISTS
         return PLAYLISTS
+    
     
     def like_key(self):
         config = configparser.ConfigParser()
@@ -262,6 +261,8 @@ class Ui(QMainWindow):
             data.update({playlist: songx})
 
         return data
+    
+    
             
 class MainThread(QThread):
     signal = pyqtSignal(str)
@@ -382,7 +383,7 @@ class UncaughtHook(QObject):
             sys.__excepthook__(exc_type, exc_value, exc_traceback)
         else:
             exc_info = (exc_type, exc_value, exc_traceback)
-            log_msg = f"{exc_type}: {exc_value}"
+            log_msg = f"{exc_type.__name__}: {exc_value}"
             log.critical("Uncaught exception:\n {0}".format(log_msg), exc_info=exc_info)
 
  
@@ -391,9 +392,19 @@ class UncaughtHook(QObject):
 qt_exception_hook = UncaughtHook()
         
 if __name__ == "__main__":
-    
-    app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('./icon.ico'))
-    window = Ui()
-    app.exec_()
+    import ctypes
+
+    def is_admin():
+        try:
+            return ctypes.windll.shell32.IsUserAnAdmin()
+        except:
+            return False
+
+    if is_admin():
+        app = QApplication(sys.argv)
+        app.setWindowIcon(QIcon('./icon.ico'))
+        window = Ui()
+        app.exec_()
+    else:
+        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv[1:]), None, 1)
     

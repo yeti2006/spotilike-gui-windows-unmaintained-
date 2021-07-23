@@ -32,7 +32,9 @@ packages = ["idna",
             "configparser",
             "os",
             "fuzzywuzzy",
-            "string"]
+            "string",
+            "ctypes",
+            "urllib.request"]
 options = {
     'build_exe': {    
         'packages':packages,
@@ -45,7 +47,7 @@ options = {
 setup(
     name = "SpotiLike <3",
     options = options,
-    version = 1.3,
+    version = 1.4,
     description = 'SpotiLike🔔💕',
     executables = executables
 )

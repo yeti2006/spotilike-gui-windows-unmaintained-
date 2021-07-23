@@ -11,3 +11,6 @@ setup.iss
 SpotiLike/build/
 SpotiLike/exe/
 test.py
+SpotiLike/notes.md
+test/
+my-spotilike-config.ini

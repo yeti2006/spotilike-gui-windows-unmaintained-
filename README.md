@@ -1,4 +1,4 @@
-# SpotiLike 💚
+<!-- 
 
 [Click Me]: https://www.mediafire.com/file/xqdh8t7zxfdlonr/SpotiLike_Setup.rar/file
 
@@ -135,4 +135,8 @@ This project was mostly based on my personal need. It probably might be useless 
 Thanks.
 
 ___
-(_huh what's that `SpotiLike 2.0` folder doing in the repo? nevermind about it. I attempted to create a gui version of this but I abandoned it because-_)
+(_huh what's that `SpotiLike 2.0` folder doing in the repo? nevermind about it. I attempted to create a gui version of this but I abandoned it because-_) -->
+
+# SpotiLike 💚
+
+You can find instructions [here](https://yeti2006.github.io/SpotiLike/spotilike.html)
