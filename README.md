@@ -139,4 +139,8 @@ ___
 
 # SpotiLike 💚
 
+## About
+
+Save Spotify songs on-the-go while you're listening, to your Liked Songs library or your favorite playlists with custom keyboard shortcuts.
+
 You can find instructions [here](https://yeti2006.github.io/SpotiLike.html)
