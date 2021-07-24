@@ -139,4 +139,4 @@ ___
 
 # SpotiLike 💚
 
-You can find instructions [here](https://yeti2006.github.io/SpotiLike/spotilike.html)
+You can find instructions [here](https://yeti2006.github.io/SpotiLike.html)
