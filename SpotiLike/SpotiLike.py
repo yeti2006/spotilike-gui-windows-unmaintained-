@@ -359,7 +359,7 @@ def show_exception_box(log_msg):
     if QApplication.instance() is not None:
             errorbox = QMessageBox()
             errorbox.setIcon(QMessageBox.Critical)
-            errorbox.setText("Oops. Something unexpected happened in SpotiLike:\n{0}\n\nClicking Ok to restart!".format(log_msg))
+            errorbox.setText("Oops. Something unexpected happened in SpotiLike:\n{0}\n\nClick Ok to restart!".format(log_msg))
             errorbox.setStandardButtons(QMessageBox.Ok)
             errorbox.buttonClicked.connect(lambda: os.execl(sys.executable, sys.executable, *sys.argv))
             errorbox.exec_()
@@ -394,17 +394,17 @@ qt_exception_hook = UncaughtHook()
 if __name__ == "__main__":
     import ctypes
 
-    def is_admin():
-        try:
-            return ctypes.windll.shell32.IsUserAnAdmin()
-        except:
-            return False
+    # def is_admin():
+    #     try:
+    #         return ctypes.windll.shell32.IsUserAnAdmin()
+    #     except:
+    #         return False
 
-    if is_admin():
-        app = QApplication(sys.argv)
-        app.setWindowIcon(QIcon('./icon.ico'))
-        window = Ui()
-        app.exec_()
-    else:
-        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv[1:]), None, 1)
-    
+    # if is_admin():
+        
+    # else:
+    #     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv[1:]), None, 1)
+    app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon('./icon.ico'))
+    window = Ui()
+    app.exec_()
