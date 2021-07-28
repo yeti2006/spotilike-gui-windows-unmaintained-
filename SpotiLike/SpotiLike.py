@@ -26,13 +26,61 @@ log = logging.getLogger(__name__)
 handler = logging.StreamHandler(stream=sys.stdout)
 log.addHandler(handler)
 
+
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public" # Initliaze Scopes. To read, current playing
 
-HOTKEY_PREFIXES = [
-    'ctrl',
+HOTKEY_PREFIXES = [ 
     'alt',
+    'backspace',
+    'caps_lock',
+    'ctrl',
+    'cmd',
+    'delete',
+    'down',
+    'end',
+    'enter',
+    'esc',
+    'f1',
+    'f10',
+    'f11',
+    'f12',
+    'f13',
+    'f14',
+    'f15', 
+    'f16',
+    'f17',
+    'f18',
+    'f19',
+    'f2',
+    'f20',
+    'f3',
+    'f4',
+    'f5',
+    'f6',
+    'f7',
+    'f8',
+    'f9',
+    'home',
+    'insert',
+    'left',
+    'media_next', 
+    'media_play_pause',
+    'media_previous',
+    'media_volume_down'
+    'media_volume_mute',
+    'media_volume_up',
+    'menu',
+    'num_lock',
+    'page_down',
+    'page_up',
+    'pause',
+    'print_screen',
+    'right',
+    'scroll_lock',
     'shift',
-    'esc'
+    'space',
+    'tab',
+    'up'
 ]
 
 def format(key:str):
@@ -105,7 +153,7 @@ class Ui(QMainWindow):
         self.watch.edited.connect(self.reload_config)
           
     def reload_config(self):
-        self.notify("Changes detected to config file! Reloading...")
+        self.notify("Changes detected to config file! Reloading...", "default")
         self.reload()
           
     def logout(self):
@@ -173,7 +221,7 @@ class Ui(QMainWindow):
     def like(self, playlist:bool=False):
         current = self.sp.current_playback()
         if not current or current['item'] is None:
-           self.notify('Not playing anything', "default")
+           self.notify('Not playing anything', "error")
            return
         try:
             

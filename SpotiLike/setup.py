@@ -41,6 +41,7 @@ options = {
         'include_files': ["interface.ui", "icon.ico", "config.ini", "assets/"],
         'zip_include_packages':'PyQt5',
         'includes':['PyQt5.QtCore','PyQt5.QtGui', 'PyQt5.QtWidgets'],
+        'excludes': ['tkinter']
     },    
 }
 
