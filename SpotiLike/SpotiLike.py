@@ -22,9 +22,10 @@ from urllib.request import urlretrieve
 from fuzzywuzzy import process
 from string import ascii_lowercase as english
 
-log = logging.getLogger(__name__)
+log = logging.basicConfig(filename="log.log", level=logging.INFO)
 handler = logging.StreamHandler(stream=sys.stdout)
 log.addHandler(handler)
+
 
 
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public" # Initliaze Scopes. To read, current playing
@@ -298,6 +299,8 @@ class Ui(QMainWindow):
             results = self.sp.playlist_tracks(self.playlists[playlist]['playlist'])
             
             tracks = results['items']
+            while results['next']:
+                tracks.extend(results['items'])
         
             data[playlist] = ""
         
@@ -307,7 +310,8 @@ class Ui(QMainWindow):
                 songx.append(songs)
                 
             data.update({playlist: songx})
-
+        from pprint import pprint as p
+        print(p(data))
         return data
     
     

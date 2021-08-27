@@ -1,0 +1,742 @@
+2021-08-25 22:31:12,731 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-25 22:31:47,387 [INFO] API called to verify user is authenticated.
+2021-08-25 22:31:47,931 [INFO] Playlist thread started
+2021-08-25 22:32:00,285 [INFO] Playlist icons downloaded
+2021-08-25 22:32:00,304 [INFO] Playlists obtained
+2021-08-25 22:32:00,304 [INFO] Playlists and/or tracks downloaded.
+2021-08-25 22:32:00,361 [INFO] Hotkey thread started.
+2021-08-25 22:32:12,408 [WARNING] Stopping hotkey loop.
+2021-08-25 22:32:12,408 [INFO] Starting hotkey loop.
+2021-08-26 09:50:12,375 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 09:50:13,729 [INFO] API called to verify user is authenticated.
+2021-08-26 09:50:14,007 [INFO] Playlist thread started
+2021-08-26 09:50:27,478 [INFO] Playlist icons downloaded
+2021-08-26 09:50:27,479 [INFO] Playlists obtained
+2021-08-26 09:50:27,479 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 09:50:27,525 [INFO] Hotkey thread started.
+2021-08-26 09:55:44,062 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 09:55:44,512 [INFO] API called to verify user is authenticated.
+2021-08-26 09:55:44,672 [INFO] Playlist thread started
+2021-08-26 09:55:51,576 [INFO] Playlist icons downloaded
+2021-08-26 09:55:51,577 [INFO] Playlists obtained
+2021-08-26 09:55:51,577 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 09:55:51,594 [INFO] Hotkey thread started.
+2021-08-26 09:56:46,848 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 09:56:48,152 [INFO] API called to verify user is authenticated.
+2021-08-26 09:56:48,485 [INFO] Playlist thread started
+2021-08-26 09:57:08,657 [INFO] Playlist icons downloaded
+2021-08-26 09:57:08,658 [INFO] Playlists obtained
+2021-08-26 09:57:08,658 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 09:57:08,671 [INFO] Hotkey thread started.
+2021-08-26 09:57:58,277 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 09:57:58,574 [INFO] API called to verify user is authenticated.
+2021-08-26 09:57:58,729 [INFO] Playlist thread started
+2021-08-26 09:58:05,344 [INFO] Playlist icons downloaded
+2021-08-26 09:58:05,345 [INFO] Playlists obtained
+2021-08-26 09:58:05,345 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 09:58:05,360 [INFO] Hotkey thread started.
+2021-08-26 09:58:12,754 [WARNING] Stopping hotkey loop.
+2021-08-26 09:58:12,754 [INFO] Starting hotkey loop.
+2021-08-26 09:59:22,607 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 09:59:23,933 [INFO] API called to verify user is authenticated.
+2021-08-26 09:59:24,288 [INFO] Playlist thread started
+2021-08-26 10:00:10,170 [INFO] Playlist icons downloaded
+2021-08-26 10:00:10,170 [INFO] Playlists obtained
+2021-08-26 10:00:10,170 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:00:10,183 [INFO] Hotkey thread started.
+2021-08-26 10:00:16,936 [WARNING] Stopping hotkey loop.
+2021-08-26 10:00:16,937 [INFO] Starting hotkey loop.
+2021-08-26 10:03:09,215 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:03:10,133 [INFO] API called to verify user is authenticated.
+2021-08-26 10:03:10,281 [INFO] Playlist thread started
+2021-08-26 10:03:16,914 [INFO] Playlist icons downloaded
+2021-08-26 10:03:16,915 [INFO] Playlists obtained
+2021-08-26 10:03:16,915 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:03:16,927 [INFO] Hotkey thread started.
+2021-08-26 10:03:31,446 [WARNING] Stopping hotkey loop.
+2021-08-26 10:03:31,446 [INFO] Starting hotkey loop.
+2021-08-26 10:17:43,821 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:17:55,268 [WARNING] Retrying (Retry(total=2, connect=None, read=False, redirect=None, status=3)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D60B9A2700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/me/
+2021-08-26 10:18:07,337 [WARNING] Retrying (Retry(total=1, connect=None, read=False, redirect=None, status=3)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D60B9A2940>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/me/
+2021-08-26 10:18:08,539 [WARNING] Retrying (Retry(total=0, connect=None, read=False, redirect=None, status=3)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D60B9A2B20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /v1/me/
+2021-08-26 10:18:12,230 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:18:29,079 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:18:34,090 [WARNING] Retrying (Retry(total=2, connect=None, read=False, redirect=None, status=3)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025A10B91700>, 'Connection to api.spotify.com timed out. (connect timeout=5)')': /v1/me/
+2021-08-26 10:18:44,432 [INFO] API called to verify user is authenticated.
+2021-08-26 10:18:46,900 [INFO] Playlist thread started
+2021-08-26 10:23:25,575 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:23:26,163 [INFO] API called to verify user is authenticated.
+2021-08-26 10:23:26,321 [INFO] Playlist thread started
+2021-08-26 10:23:33,397 [INFO] Playlist icons downloaded
+2021-08-26 10:23:33,398 [INFO] Playlists obtained
+2021-08-26 10:23:33,399 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:23:33,426 [INFO] Hotkey thread started.
+2021-08-26 10:23:49,024 [WARNING] Stopping hotkey loop.
+2021-08-26 10:23:49,024 [INFO] Starting hotkey loop.
+2021-08-26 10:23:59,847 [WARNING] Stopping hotkey loop.
+2021-08-26 10:23:59,848 [INFO] Starting hotkey loop.
+2021-08-26 10:24:10,815 [WARNING] Stopping hotkey loop.
+2021-08-26 10:24:10,816 [INFO] Starting hotkey loop.
+2021-08-26 10:24:29,047 [WARNING] Stopping hotkey loop.
+2021-08-26 10:24:29,047 [INFO] Starting hotkey loop.
+2021-08-26 10:24:59,580 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:24:59,890 [INFO] API called to verify user is authenticated.
+2021-08-26 10:25:00,059 [INFO] Playlist thread started
+2021-08-26 10:25:07,629 [INFO] Playlist icons downloaded
+2021-08-26 10:25:07,630 [INFO] Playlists obtained
+2021-08-26 10:25:07,630 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:25:07,657 [INFO] Hotkey thread started.
+2021-08-26 10:39:50,897 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:39:51,310 [INFO] API called to verify user is authenticated.
+2021-08-26 10:39:51,498 [INFO] Playlist thread started
+2021-08-26 10:39:51,501 [CRITICAL] Uncaught exception:
+ TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 315, in run
+    data = playlists.main(self.args)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 47, in main
+    if settings()['fetch_playlists'] and settings()['fetch_songs']:
+TypeError: list indices must be integers or slices, not str
+2021-08-26 10:40:39,489 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:40:41,271 [INFO] API called to verify user is authenticated.
+2021-08-26 10:40:41,444 [INFO] Playlist thread started
+2021-08-26 10:40:54,125 [INFO] Playlist icons downloaded
+2021-08-26 10:40:54,126 [INFO] Playlists obtained
+2021-08-26 10:40:54,126 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:40:54,133 [INFO] Hotkey thread started.
+2021-08-26 10:41:21,123 [WARNING] Stopping hotkey loop.
+2021-08-26 10:41:21,124 [INFO] Starting hotkey loop.
+2021-08-26 10:46:55,903 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:46:56,322 [INFO] API called to verify user is authenticated.
+2021-08-26 10:46:56,484 [INFO] Playlist thread started
+2021-08-26 10:47:08,609 [INFO] Playlist icons downloaded
+2021-08-26 10:47:08,610 [INFO] Playlists obtained
+2021-08-26 10:47:08,610 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:47:08,629 [INFO] Hotkey thread started.
+2021-08-26 10:48:17,958 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:48:18,283 [INFO] API called to verify user is authenticated.
+2021-08-26 10:48:18,452 [INFO] Playlist thread started
+2021-08-26 10:48:39,869 [INFO] Playlist icons downloaded
+2021-08-26 10:48:39,870 [INFO] Playlists obtained
+2021-08-26 10:48:39,870 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:48:39,887 [INFO] Hotkey thread started.
+2021-08-26 10:49:09,429 [WARNING] Stopping hotkey loop.
+2021-08-26 10:49:09,429 [INFO] Starting hotkey loop.
+2021-08-26 10:49:20,854 [WARNING] Stopping hotkey loop.
+2021-08-26 10:49:20,854 [INFO] Starting hotkey loop.
+2021-08-26 10:59:14,404 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 10:59:21,553 [INFO] API called to verify user is authenticated.
+2021-08-26 10:59:21,968 [INFO] Playlist thread started
+2021-08-26 10:59:56,658 [INFO] Playlist icons downloaded
+2021-08-26 10:59:56,658 [INFO] Playlists obtained
+2021-08-26 10:59:56,659 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 10:59:56,674 [INFO] Hotkey thread started.
+2021-08-26 11:01:57,015 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:02:05,434 [INFO] API called to verify user is authenticated.
+2021-08-26 11:02:06,851 [INFO] Playlist thread started
+2021-08-26 11:02:11,860 [CRITICAL] Uncaught exception:
+ ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+Traceback (most recent call last):
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\spotilike.py", line 328, in run
+    data = playlists.main(self.args)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 51, in main
+    data = get_playlists(spotify)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 27, in get_playlists
+    for item in spotify.current_user_playlists()['items'] if item['owner']['id'] == spotify.me()['id']
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 597, in current_user_playlists
+    return self._get("me/playlists", limit=limit, offset=offset)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 291, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 240, in _internal_call
+    response = self._session.request(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+2021-08-26 11:02:28,284 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:02:33,292 [WARNING] Retrying (Retry(total=2, connect=None, read=False, redirect=None, status=3)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021517C2B2B0>, 'Connection to api.spotify.com timed out. (connect timeout=5)')': /v1/me/
+2021-08-26 11:02:38,895 [WARNING] Retrying (Retry(total=1, connect=None, read=False, redirect=None, status=3)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021517C2B4C0>, 'Connection to api.spotify.com timed out. (connect timeout=5)')': /v1/me/
+2021-08-26 11:02:44,174 [INFO] API called to verify user is authenticated.
+2021-08-26 11:02:46,109 [INFO] Playlist thread started
+2021-08-26 11:02:51,169 [CRITICAL] Uncaught exception:
+ ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+Traceback (most recent call last):
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\spotilike.py", line 328, in run
+    data = playlists.main(self.args)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 51, in main
+    data = get_playlists(spotify)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 27, in get_playlists
+    for item in spotify.current_user_playlists()['items'] if item['owner']['id'] == spotify.me()['id']
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 597, in current_user_playlists
+    return self._get("me/playlists", limit=limit, offset=offset)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 291, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 240, in _internal_call
+    response = self._session.request(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+2021-08-26 11:03:15,652 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:03:29,449 [INFO] API called to verify user is authenticated.
+2021-08-26 11:03:30,323 [INFO] Playlist thread started
+2021-08-26 11:03:45,693 [INFO] Playlist icons downloaded
+2021-08-26 11:03:45,694 [INFO] Playlists obtained
+2021-08-26 11:03:45,694 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:03:45,709 [INFO] Hotkey thread started.
+2021-08-26 11:04:16,731 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:04:18,382 [INFO] API called to verify user is authenticated.
+2021-08-26 11:04:18,597 [INFO] Playlist thread started
+2021-08-26 11:04:33,709 [INFO] Playlist icons downloaded
+2021-08-26 11:04:33,710 [INFO] Playlists obtained
+2021-08-26 11:04:33,710 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:04:33,724 [INFO] Hotkey thread started.
+2021-08-26 11:22:41,403 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:22:42,257 [INFO] API called to verify user is authenticated.
+2021-08-26 11:22:42,440 [INFO] Playlist thread started
+2021-08-26 11:22:42,452 [INFO] Playlist icons downloaded
+2021-08-26 11:22:42,453 [INFO] Playlists obtained
+2021-08-26 11:22:42,531 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:22:42,549 [INFO] Hotkey thread started.
+2021-08-26 11:23:17,310 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:23:17,600 [INFO] API called to verify user is authenticated.
+2021-08-26 11:23:17,757 [INFO] Playlist thread started
+2021-08-26 11:24:17,200 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:24:17,517 [INFO] API called to verify user is authenticated.
+2021-08-26 11:24:17,683 [INFO] Playlist thread started
+2021-08-26 11:24:24,563 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:24:24,868 [INFO] API called to verify user is authenticated.
+2021-08-26 11:24:25,020 [INFO] Playlist thread started
+2021-08-26 11:24:37,637 [INFO] Playlist icons downloaded
+2021-08-26 11:24:37,637 [INFO] Playlists obtained
+2021-08-26 11:24:37,638 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:24:37,666 [INFO] Hotkey thread started.
+2021-08-26 11:24:50,122 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:24:51,341 [INFO] API called to verify user is authenticated.
+2021-08-26 11:24:51,559 [INFO] Playlist thread started
+2021-08-26 11:24:59,164 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:24:59,501 [INFO] API called to verify user is authenticated.
+2021-08-26 11:24:59,681 [INFO] Playlist thread started
+2021-08-26 11:24:59,700 [INFO] Playlist icons downloaded
+2021-08-26 11:24:59,700 [INFO] Playlists obtained
+2021-08-26 11:24:59,724 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:24:59,739 [INFO] Hotkey thread started.
+2021-08-26 11:25:07,176 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:25:07,520 [INFO] API called to verify user is authenticated.
+2021-08-26 11:25:07,684 [INFO] Playlist thread started
+2021-08-26 11:25:07,704 [INFO] Playlist icons downloaded
+2021-08-26 11:25:07,705 [INFO] Playlists obtained
+2021-08-26 11:25:07,747 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:25:07,764 [INFO] Hotkey thread started.
+2021-08-26 11:25:13,888 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:25:14,310 [INFO] API called to verify user is authenticated.
+2021-08-26 11:25:14,474 [INFO] Playlist thread started
+2021-08-26 11:25:14,486 [INFO] Playlist icons downloaded
+2021-08-26 11:25:14,521 [INFO] Playlists obtained
+2021-08-26 11:25:14,572 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:25:14,592 [INFO] Hotkey thread started.
+2021-08-26 11:25:21,203 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:25:21,524 [INFO] API called to verify user is authenticated.
+2021-08-26 11:25:21,695 [INFO] Playlist thread started
+2021-08-26 11:25:21,713 [INFO] Playlist icons downloaded
+2021-08-26 11:25:21,714 [INFO] Playlists obtained
+2021-08-26 11:25:21,738 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:25:21,754 [INFO] Hotkey thread started.
+2021-08-26 11:25:44,852 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:25:45,206 [INFO] API called to verify user is authenticated.
+2021-08-26 11:25:45,379 [INFO] Playlist thread started
+2021-08-26 11:25:45,404 [INFO] Playlist icons downloaded
+2021-08-26 11:25:45,405 [INFO] Playlists obtained
+2021-08-26 11:25:45,450 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:25:45,466 [INFO] Hotkey thread started.
+2021-08-26 11:25:47,561 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:25:47,869 [INFO] API called to verify user is authenticated.
+2021-08-26 11:25:48,050 [INFO] Playlist thread started
+2021-08-26 11:25:48,089 [INFO] Playlist icons downloaded
+2021-08-26 11:25:48,126 [INFO] Playlists obtained
+2021-08-26 11:25:48,127 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:25:48,144 [INFO] Hotkey thread started.
+2021-08-26 11:26:28,166 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:26:28,545 [INFO] API called to verify user is authenticated.
+2021-08-26 11:26:28,680 [INFO] Playlist thread started
+2021-08-26 11:26:28,700 [INFO] Playlist icons downloaded
+2021-08-26 11:26:28,722 [INFO] Playlists obtained
+2021-08-26 11:26:28,724 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:26:28,739 [INFO] Hotkey thread started.
+2021-08-26 11:26:36,877 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:26:47,570 [INFO] API called to verify user is authenticated.
+2021-08-26 11:26:49,193 [INFO] Playlist thread started
+2021-08-26 11:26:49,206 [INFO] Playlist icons downloaded
+2021-08-26 11:26:49,207 [INFO] Playlists obtained
+2021-08-26 11:26:49,280 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:26:49,300 [INFO] Hotkey thread started.
+2021-08-26 11:26:52,401 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:27:02,307 [CRITICAL] Uncaught exception:
+ ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+Traceback (most recent call last):
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\spotilike.py", line 344, in <module>
+    window_home = Home()
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\spotilike.py", line 63, in __init__
+    self.sp.me()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 1161, in me
+    return self._get("me/")
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 291, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\spotipy\client.py", line 240, in _internal_call
+    response = self._session.request(
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+2021-08-26 11:27:51,331 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:27:51,795 [INFO] API called to verify user is authenticated.
+2021-08-26 11:27:51,948 [INFO] Playlist thread started
+2021-08-26 11:27:51,960 [INFO] Playlist icons downloaded
+2021-08-26 11:27:51,962 [INFO] Playlists obtained
+2021-08-26 11:27:52,020 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:27:52,064 [INFO] Hotkey thread started.
+2021-08-26 11:27:55,693 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:27:56,013 [INFO] API called to verify user is authenticated.
+2021-08-26 11:27:56,227 [INFO] Playlist thread started
+2021-08-26 11:27:56,247 [INFO] Playlist icons downloaded
+2021-08-26 11:27:56,273 [INFO] Playlists obtained
+2021-08-26 11:27:56,274 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:27:56,290 [INFO] Hotkey thread started.
+2021-08-26 11:27:58,664 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:27:58,966 [INFO] API called to verify user is authenticated.
+2021-08-26 11:27:59,158 [INFO] Playlist thread started
+2021-08-26 11:27:59,193 [INFO] Playlist icons downloaded
+2021-08-26 11:27:59,209 [INFO] Playlists obtained
+2021-08-26 11:27:59,225 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:27:59,243 [INFO] Hotkey thread started.
+2021-08-26 11:28:04,273 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:28:04,598 [INFO] API called to verify user is authenticated.
+2021-08-26 11:28:04,775 [INFO] Playlist thread started
+2021-08-26 11:28:04,787 [INFO] Playlist icons downloaded
+2021-08-26 11:28:04,788 [INFO] Playlists obtained
+2021-08-26 11:28:04,856 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:28:04,875 [INFO] Hotkey thread started.
+2021-08-26 11:29:29,554 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:29:29,858 [INFO] API called to verify user is authenticated.
+2021-08-26 11:29:30,034 [INFO] Playlist thread started
+2021-08-26 11:29:30,073 [INFO] Playlist icons downloaded
+2021-08-26 11:29:30,074 [INFO] Playlists obtained
+2021-08-26 11:29:30,135 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:29:30,159 [INFO] Hotkey thread started.
+2021-08-26 11:29:36,820 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:29:37,191 [INFO] API called to verify user is authenticated.
+2021-08-26 11:29:37,370 [INFO] Playlist thread started
+2021-08-26 11:29:37,395 [INFO] Playlist icons downloaded
+2021-08-26 11:29:37,408 [INFO] Playlists obtained
+2021-08-26 11:29:37,441 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:29:37,456 [INFO] Hotkey thread started.
+2021-08-26 11:29:39,359 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:29:39,729 [INFO] API called to verify user is authenticated.
+2021-08-26 11:29:39,897 [INFO] Playlist thread started
+2021-08-26 11:29:39,918 [INFO] Playlist icons downloaded
+2021-08-26 11:29:39,918 [INFO] Playlists obtained
+2021-08-26 11:29:39,955 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:29:39,971 [INFO] Hotkey thread started.
+2021-08-26 11:30:53,639 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:30:55,106 [INFO] API called to verify user is authenticated.
+2021-08-26 11:30:55,292 [INFO] Playlist thread started
+2021-08-26 11:30:55,322 [INFO] Playlist icons downloaded
+2021-08-26 11:30:55,338 [INFO] Playlists obtained
+2021-08-26 11:30:55,355 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:30:55,372 [INFO] Hotkey thread started.
+2021-08-26 11:31:12,463 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:31:12,757 [INFO] API called to verify user is authenticated.
+2021-08-26 11:31:12,910 [INFO] Playlist thread started
+2021-08-26 11:31:12,947 [INFO] Playlist icons downloaded
+2021-08-26 11:31:12,964 [INFO] Playlists obtained
+2021-08-26 11:31:12,997 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:31:13,015 [INFO] Hotkey thread started.
+2021-08-26 11:31:15,727 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:31:16,085 [INFO] API called to verify user is authenticated.
+2021-08-26 11:31:16,268 [INFO] Playlist thread started
+2021-08-26 11:31:16,280 [INFO] Playlist icons downloaded
+2021-08-26 11:31:16,281 [INFO] Playlists obtained
+2021-08-26 11:31:16,364 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:31:16,380 [INFO] Hotkey thread started.
+2021-08-26 11:31:38,660 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:31:38,992 [INFO] API called to verify user is authenticated.
+2021-08-26 11:31:39,142 [INFO] Playlist thread started
+2021-08-26 11:31:39,154 [INFO] Playlist icons downloaded
+2021-08-26 11:31:39,154 [INFO] Playlists obtained
+2021-08-26 11:31:39,210 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:31:39,227 [INFO] Hotkey thread started.
+2021-08-26 11:32:26,556 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:32:35,922 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:32:38,399 [INFO] API called to verify user is authenticated.
+2021-08-26 11:32:38,585 [INFO] Playlist thread started
+2021-08-26 11:32:38,614 [INFO] Playlist icons downloaded
+2021-08-26 11:32:38,615 [INFO] Playlists obtained
+2021-08-26 11:32:38,672 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:32:38,691 [INFO] Hotkey thread started.
+2021-08-26 11:32:41,748 [INFO] Hiding widget,
+2021-08-26 11:32:51,971 [INFO] Hiding widget,
+2021-08-26 11:34:19,915 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:34:20,578 [INFO] API called to verify user is authenticated.
+2021-08-26 11:34:20,735 [INFO] Playlist thread started
+2021-08-26 11:34:20,742 [INFO] Playlist icons downloaded
+2021-08-26 11:34:20,743 [INFO] Playlists obtained
+2021-08-26 11:34:20,808 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:34:20,829 [INFO] Hotkey thread started.
+2021-08-26 11:34:27,091 [INFO] Hiding widget.
+2021-08-26 11:34:27,092 [WARNING] Stopping hotkey loop.
+2021-08-26 11:34:27,092 [INFO] Starting hotkey loop.
+2021-08-26 11:34:27,125 [INFO] Restarted hotkeyz
+2021-08-26 11:57:33,270 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:57:34,161 [INFO] API called to verify user is authenticated.
+2021-08-26 11:57:34,304 [INFO] Playlist thread started
+2021-08-26 11:57:34,310 [INFO] Playlist icons downloaded
+2021-08-26 11:57:34,327 [INFO] Playlists obtained
+2021-08-26 11:57:34,375 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:57:34,402 [INFO] Hotkey thread started.
+2021-08-26 11:58:02,613 [CRITICAL] Uncaught exception:
+ KeyError: 'name'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 125, in save
+    if self.playlists[key]['name'] == value:
+KeyError: 'name'
+2021-08-26 11:59:14,850 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 11:59:15,666 [INFO] API called to verify user is authenticated.
+2021-08-26 11:59:15,847 [INFO] Playlist thread started
+2021-08-26 11:59:15,859 [INFO] Playlist icons downloaded
+2021-08-26 11:59:15,860 [INFO] Playlists obtained
+2021-08-26 11:59:15,934 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 11:59:15,954 [INFO] Hotkey thread started.
+2021-08-26 12:05:42,637 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:05:43,047 [INFO] API called to verify user is authenticated.
+2021-08-26 12:05:43,222 [INFO] Playlist thread started
+2021-08-26 12:05:43,228 [INFO] Playlist icons downloaded
+2021-08-26 12:05:43,244 [INFO] Playlists obtained
+2021-08-26 12:05:43,288 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:05:43,308 [INFO] Hotkey thread started.
+2021-08-26 12:05:44,848 [CRITICAL] Uncaught exception:
+ AttributeError: 'Home' object has no attribute 'liked'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 132, in save
+    self.liked(playlist=True)
+AttributeError: 'Home' object has no attribute 'liked'
+2021-08-26 12:06:11,593 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:06:11,880 [INFO] API called to verify user is authenticated.
+2021-08-26 12:06:12,023 [INFO] Playlist thread started
+2021-08-26 12:06:12,045 [INFO] Playlist icons downloaded
+2021-08-26 12:06:12,046 [INFO] Playlists obtained
+2021-08-26 12:06:12,085 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:06:12,104 [INFO] Hotkey thread started.
+2021-08-26 12:06:16,622 [CRITICAL] Uncaught exception:
+ TypeError: 'dict' object is not callable
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 133, in save
+    self.playlists(value)
+TypeError: 'dict' object is not callable
+2021-08-26 12:06:28,759 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:06:29,063 [INFO] API called to verify user is authenticated.
+2021-08-26 12:06:29,237 [INFO] Playlist thread started
+2021-08-26 12:06:29,249 [INFO] Playlist icons downloaded
+2021-08-26 12:06:29,282 [INFO] Playlists obtained
+2021-08-26 12:06:29,331 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:06:29,351 [INFO] Hotkey thread started.
+2021-08-26 12:06:35,811 [CRITICAL] Uncaught exception:
+ KeyError: 'like'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 133, in save
+    self.playlist(value)
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 158, in playlist
+    if current['item']['id'] in self.songs[name]:
+KeyError: 'like'
+2021-08-26 12:07:56,117 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:07:56,557 [INFO] API called to verify user is authenticated.
+2021-08-26 12:07:56,732 [INFO] Playlist thread started
+2021-08-26 12:07:56,752 [INFO] Playlist icons downloaded
+2021-08-26 12:07:56,752 [INFO] Playlists obtained
+2021-08-26 12:07:56,777 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:07:56,793 [INFO] Hotkey thread started.
+2021-08-26 12:09:54,391 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:09:54,986 [INFO] API called to verify user is authenticated.
+2021-08-26 12:09:55,155 [INFO] Playlist thread started
+2021-08-26 12:09:55,177 [INFO] Playlist icons downloaded
+2021-08-26 12:09:55,202 [INFO] Playlists obtained
+2021-08-26 12:09:55,221 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:09:55,241 [INFO] Hotkey thread started.
+2021-08-26 12:11:23,032 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:11:26,809 [INFO] API called to verify user is authenticated.
+2021-08-26 12:11:26,998 [INFO] Playlist thread started
+2021-08-26 12:11:27,010 [INFO] Playlist icons downloaded
+2021-08-26 12:11:27,011 [INFO] Playlists obtained
+2021-08-26 12:11:27,071 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:11:27,087 [INFO] Hotkey thread started.
+2021-08-26 12:19:25,133 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:19:26,826 [INFO] API called to verify user is authenticated.
+2021-08-26 12:19:27,255 [INFO] Playlist thread started
+2021-08-26 12:19:27,276 [INFO] Playlist icons downloaded
+2021-08-26 12:19:27,301 [INFO] Playlists obtained
+2021-08-26 12:19:27,303 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:19:27,320 [INFO] Hotkey thread started.
+2021-08-26 12:19:32,600 [CRITICAL] Uncaught exception:
+ KeyError: 'like'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 133, in save
+    self.playlist(value)
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 160, in playlist
+    if current['item']['id'] in self.songs[name]:
+KeyError: 'like'
+2021-08-26 12:20:25,911 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:20:26,234 [INFO] API called to verify user is authenticated.
+2021-08-26 12:20:26,386 [INFO] Playlist thread started
+2021-08-26 12:20:26,408 [INFO] Playlist icons downloaded
+2021-08-26 12:20:26,447 [INFO] Playlists obtained
+2021-08-26 12:20:26,451 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:20:26,471 [INFO] Hotkey thread started.
+2021-08-26 12:20:28,578 [CRITICAL] Uncaught exception:
+ KeyError: 'like'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 134, in save
+    self.playlist(value)
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 161, in playlist
+    if current['item']['id'] in self.songs[name]:
+KeyError: 'like'
+2021-08-26 12:21:16,005 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:21:16,313 [INFO] API called to verify user is authenticated.
+2021-08-26 12:21:16,468 [INFO] Playlist thread started
+2021-08-26 12:21:16,489 [INFO] Playlist icons downloaded
+2021-08-26 12:21:16,533 [INFO] Playlists obtained
+2021-08-26 12:21:16,537 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:21:16,557 [INFO] Hotkey thread started.
+2021-08-26 12:21:37,777 [WARNING] Stopping hotkey loop.
+2021-08-26 12:21:37,778 [INFO] Starting hotkey loop.
+2021-08-26 12:21:37,792 [INFO] Restarted hotkeyz
+2021-08-26 12:22:46,227 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:22:46,701 [INFO] API called to verify user is authenticated.
+2021-08-26 12:22:46,905 [INFO] Playlist thread started
+2021-08-26 12:22:46,928 [INFO] Playlist icons downloaded
+2021-08-26 12:22:46,928 [INFO] Playlists obtained
+2021-08-26 12:22:46,970 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:22:46,991 [INFO] Hotkey thread started.
+2021-08-26 12:31:16,239 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:31:16,661 [INFO] API called to verify user is authenticated.
+2021-08-26 12:31:16,827 [INFO] Playlist thread started
+2021-08-26 12:31:16,834 [CRITICAL] Uncaught exception:
+ ValueError: unknown url type: './assets/playlists/6kcwp0SJ0BMUAIRt5ezjLU.ico'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 332, in run
+    data = playlists.main(self.args)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 56, in main
+    save_images(data)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 37, in save_images
+    urlretrieve(url, f"./assets/playlists/{id}.ico")
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 501, in open
+    req = Request(fullurl, data)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 320, in __init__
+    self.full_url = url
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 346, in full_url
+    self._parse()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 375, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: './assets/playlists/6kcwp0SJ0BMUAIRt5ezjLU.ico'
+2021-08-26 12:32:48,114 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:32:49,449 [INFO] API called to verify user is authenticated.
+2021-08-26 12:32:50,042 [INFO] Playlist thread started
+2021-08-26 12:32:50,149 [CRITICAL] Uncaught exception:
+ ValueError: unknown url type: './assets/playlists/6kcwp0SJ0BMUAIRt5ezjLU.ico'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 332, in run
+    data = playlists.main(self.args)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 56, in main
+    save_images(data)
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\utils\playlists.py", line 37, in save_images
+    urlretrieve(url, f"./assets/playlists/{id}.ico")
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 501, in open
+    req = Request(fullurl, data)
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 320, in __init__
+    self.full_url = url
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 346, in full_url
+    self._parse()
+  File "C:\Users\Senuka\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 375, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: './assets/playlists/6kcwp0SJ0BMUAIRt5ezjLU.ico'
+2021-08-26 12:33:43,200 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:33:46,455 [INFO] API called to verify user is authenticated.
+2021-08-26 12:33:47,511 [INFO] Playlist thread started
+2021-08-26 12:33:47,516 [INFO] Playlist icons downloaded
+2021-08-26 12:33:47,517 [INFO] Playlists obtained
+2021-08-26 12:33:47,554 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:33:47,567 [INFO] Hotkey thread started.
+2021-08-26 12:34:53,246 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:34:54,850 [INFO] API called to verify user is authenticated.
+2021-08-26 12:34:55,254 [INFO] Playlist thread started
+2021-08-26 12:34:55,263 [INFO] Playlist icons downloaded
+2021-08-26 12:34:55,264 [INFO] Playlists obtained
+2021-08-26 12:34:55,347 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:34:55,365 [INFO] Hotkey thread started.
+2021-08-26 12:35:27,475 [INFO] Restarting 
+2021-08-26 12:35:43,215 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-26 12:35:44,696 [INFO] API called to verify user is authenticated.
+2021-08-26 12:35:45,179 [INFO] Playlist thread started
+2021-08-26 12:37:48,090 [INFO] Playlist icons downloaded
+2021-08-26 12:37:48,091 [INFO] Playlists obtained
+2021-08-26 12:37:48,091 [INFO] Playlists and/or tracks downloaded.
+2021-08-26 12:37:48,108 [INFO] Hotkey thread started.
+2021-08-26 12:39:36,847 [CRITICAL] Uncaught exception:
+ KeyError: 'tracks'
+Traceback (most recent call last):
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 134, in save
+    self.playlist(value)
+  File "c:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike 2.0\SpotiLike.py", line 163, in playlist
+    if current['item']['id'] in self.songs[name]['tracks']:
+KeyError: 'tracks'
+2021-08-26 17:21:04,879 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-27 13:25:11,754 [CRITICAL] Uncaught exception:
+ FileNotFoundError: [WinError 2] The system cannot find the file specified: './update.exe'
+Traceback (most recent call last):
+  File "C:\Users\Senuka\Documents\SpotiLike_Project\SpotiLike_2.0\spotilike.py", line 340, in <module>
+    os.startfile("./update.exe")
+FileNotFoundError: [WinError 2] The system cannot find the file specified: './update.exe'
+2021-08-27 13:28:35,486 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-27 13:28:36,522 [INFO] API called to verify user is authenticated.
+2021-08-27 13:28:36,709 [INFO] Playlist thread started
+2021-08-27 13:28:53,375 [INFO] Authorised and verified credentials from localhost:9000
+2021-08-27 13:28:53,727 [INFO] API called to verify user is authenticated.
+2021-08-27 13:28:53,898 [INFO] Playlist thread started

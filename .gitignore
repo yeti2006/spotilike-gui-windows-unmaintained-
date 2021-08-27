@@ -16,3 +16,5 @@ test/
 my-spotilike-config.ini
 readme/
 SpotiLike/test/
+SpotiLike_2.0/utils/update.py
+SpotiLike_2.0/build/
