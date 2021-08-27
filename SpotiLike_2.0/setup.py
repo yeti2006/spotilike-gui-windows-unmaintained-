@@ -26,12 +26,11 @@ packages = ["idna",
             "fuzzywuzzy",
             "string",
             "ctypes",
-            "urllib.request",
-            "github"]
+            "urllib.request"]
 options = {
     'build_exe': {    
         'packages':packages,
-        'include_files': ["uis", "icon.ico", "assets", "config", "update", "readme.txt", "update.exe", "version.txt"],
+        'include_files': ["uis", "icon.ico", "assets", "config", "update", "readme.txt", "version.txt"],
         'zip_include_packages':'PyQt5',
         'includes':['PyQt5.QtCore','PyQt5.QtGui', 'PyQt5.QtWidgets', "format_hotkey",
             "thread",

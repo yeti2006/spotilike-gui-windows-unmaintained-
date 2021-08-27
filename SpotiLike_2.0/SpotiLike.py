@@ -102,6 +102,7 @@ class Home(QtWidgets.QMainWindow):
         self.playlistThread = ProcessRunnable(target=None, args=self.sp)
         self.playlistThread.start()
         logging.info("Playlist thread started")
+        widget.setWindowTitle("SpotiLike | Downloading assets and playlist data...")
         self.playlistThread.signal.playlists.connect(self.do_selection)
         
         liked_songs_image = QPixmap("./assets/liked_songs.ico")
@@ -110,7 +111,8 @@ class Home(QtWidgets.QMainWindow):
           
         self.shortcut.textChanged.connect(self.change_shortcut)
         
-        widget.setWindowTitle("SpotiLike <3")
+        self.changesSaved = False
+        
     
         
     @pyqtSlot(str)
@@ -178,6 +180,8 @@ class Home(QtWidgets.QMainWindow):
     @pyqtSlot(dict)
     def do_selection(self, value):
         logging.info("Playlists and/or tracks downloaded.")
+        widget.setWindowTitle("SpotiLike <3")
+        
         self.playlists = value
         
         with open("./config/hotkeys.json") as f:
@@ -335,9 +339,7 @@ class ProcessRunnable(QThread):
 
         
 if __name__ == "__main__":
-    
-    os.startfile("update.exe")
-    
+     
     import main, settings
     
     app = QtWidgets.QApplication(sys.argv)

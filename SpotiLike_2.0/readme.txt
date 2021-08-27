@@ -15,6 +15,6 @@ You can check out my website at => http://yeti.ga/
 
 You can reach out to me on Discord; dm Yeti#2222
 
-Thanks, 🤞💖
+Thanks, <3
 Yeti
 

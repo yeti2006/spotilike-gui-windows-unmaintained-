@@ -22,7 +22,7 @@ def get_playlists(spotify) -> dict:
     playlists = {
         str(item['name']): {
             "id":item['id'],
-            "image_url": item['images'][0]['url'] 
+            "image_url": item['images'][0]['url'] if not item['images'] == [] else "./assets/error.ico"
             }
         for item in spotify.current_user_playlists()['items'] if item['owner']['id'] == spotify.me()['id']
         }
@@ -34,7 +34,10 @@ def save_images(playlists) -> None:
 
     for id, url in images.items():
         if not os.path.exists(f"./assets/playlists/{id}.ico"):
-            urlretrieve(url, f"./assets/playlists/{id}.ico")
+            try:
+                urlretrieve(url, f"./assets/playlists/{id}.ico")
+            except: pass
+            
             print(f"Saved {id}.ico")
     logging.info("Playlist icons downloaded")
             
