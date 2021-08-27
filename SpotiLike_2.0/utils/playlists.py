@@ -12,7 +12,7 @@ def playlists_and_tracks(spotify) -> dict:
         if item['owner']['id'] == spotify.me()['id']:
             playlists_and_tracks[item['name']] = {
                 "id": item['id'],
-                "image_url": item['images'][0]['url'], 
+                "image_url": item['images'][0]['url'] if not item['images'] == [] else "./assets/error.ico", 
                 "tracks": [song['track']['id'] for song in spotify.playlist_tracks(item['id'])['items']]
             }
     

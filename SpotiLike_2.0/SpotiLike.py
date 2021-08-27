@@ -40,7 +40,6 @@ scope = "user-read-playback-state user-library-modify user-library-read playlist
 
 
 
-
 class Home(QtWidgets.QMainWindow):
     def __init__(self):
         super(Home, self).__init__()

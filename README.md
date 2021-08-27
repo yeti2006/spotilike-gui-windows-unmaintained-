@@ -143,4 +143,32 @@ ___
 
 Save Spotify songs on-the-go while you're listening, to your Liked Songs library or your favorite playlists with custom keyboard shortcuts.
 
-You can find instructions [here](https://yeti2006.github.io/SpotiLike.html)
+Here's what it basically does in _**one**_ screenshot:
+
+![yeaa boi!](readme-assets/ss.png)
+
+Contains a settings page to adjust the behaviour of the application according to your preferences:
+
+![Settings](readme-assets/settings.png)
+
+Closing it would minimize itself to the system tray, so it's out of your way. (Yes, you can exit it from the menu in the Tray Icon.)
+
+### Download
+
+You can download the `setup` file from the releases section. Here's a direct link to it:
+
+[Click me!](https://github.com/yeti2006/SpotiLike/releases/download/2.0/SpotiLike_v2.0.exe)
+
+## Source code
+
+The source is a mess and I need to refactor everything, but you can check it out in the `Spotilike_2.0` directory.
+
+## SpotiLike v1
+
+Feeling old and simple? You can download and install my first attempt in this project. It requires instructions so I suggest you head over to https://yeti.ga/SpotiLike for further instructions.
+
+(This doesn't has a gui, you have to write your configuration in a `config.ini` file and as mentioned, you'll find instructions in [here](https://yeti.ga/SpotiLike))
+
+___
+
+Cheers! 💖🤞
