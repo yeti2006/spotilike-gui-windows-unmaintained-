@@ -145,7 +145,9 @@ Save Spotify songs on-the-go while you're listening, to your Liked Songs library
 
 Here's what it basically does in _**one**_ screenshot:
 
-![yeaa boi!](readme-assets/ss.png)
+**Kind of a documentation**: http://yeti.ga/SpotiLike_2.0
+
+![yeaa boi!](readme-assets/ss.png)(i pressed alt+4)
 
 Contains a settings page to adjust the behaviour of the application according to your preferences:
 
