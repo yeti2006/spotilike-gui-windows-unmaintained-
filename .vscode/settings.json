@@ -2,6 +2,8 @@
     "python.analysis.extraPaths": [
         "./SpotiLike 2.0/utils",
         "./SpotiLike_2.0/utils",
-        "./SpotiLike_2.0/interfaces"
+        "./SpotiLike_2.0/interfaces",
+        "./SpotiLike_v2/interfaces",
+        "./SpotiLike_v2/utils"
     ]
 }

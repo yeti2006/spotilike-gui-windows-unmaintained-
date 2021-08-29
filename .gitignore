@@ -1,5 +1,5 @@
-SpotiLike/test.py
-SpotiLike/spotilikesuper.py
+SpotiLike_v1/test.py
+SpotiLike_v1/spotilikesuper.py
 credentials.py
 assets/dark_eerie.ico
 assets/dc.ico
@@ -8,13 +8,13 @@ assets/hyperpop.ico
 exe/
 .cache
 setup.iss
-SpotiLike/build/
-SpotiLike/exe/
+SpotiLike_v1/build/
+SpotiLike_v1/exe/
 test.py
-SpotiLike/notes.md
+SpotiLike_v1/notes.md
 test/
 my-spotilike-config.ini
 readme/
-SpotiLike/test/
-SpotiLike_2.0/utils/update.py
-SpotiLike_2.0/build/
+SpotiLike_v1/test/
+SpotiLike_v2/utils/update.py
+SpotiLike_v2/build/
