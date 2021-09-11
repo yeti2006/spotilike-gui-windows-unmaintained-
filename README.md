@@ -145,7 +145,7 @@ Save Spotify songs on-the-go while you're listening, to your Liked Songs library
 
 Here's what it basically does in _**one**_ screenshot:
 
-**Kind of a documentation**: http://yeti.ga/SpotiLike_2.0
+**Kind of a documentation**: http://yeti.ga/docs/spotilike_/spotilike
 
 ![yeaa boi!](readme-assets/ss.png)(i pressed alt+4)
 
@@ -163,7 +163,7 @@ You can download the `setup` file from the releases section. Here's a direct lin
 
 ## Source code
 
-The source is a mess and I need to refactor everything, but you can check it out in the `Spotilike_2.0` directory.
+The source is a mess and I need to refactor everything, but you can check it out in the `Spotilikev2` directory.
 
 ## SpotiLike v1
 
