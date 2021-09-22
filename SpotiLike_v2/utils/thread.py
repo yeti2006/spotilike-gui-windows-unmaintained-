@@ -53,7 +53,6 @@ class GlobalHotKeys(QThread):
         self._run()
 
     def run(self):
-        """QThread convenience method to start the thread"""
 
         self._run()
 

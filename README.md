@@ -163,7 +163,7 @@ You can download the `setup` file from the releases section. Here's a direct lin
 
 ## Source code
 
-The source is a mess and I need to refactor everything, but you can check it out in the `Spotilikev2` directory.
+The source is a mess and I need to refactor everything, but you can check it out in the `Spotilike_v2` directory.
 
 ## SpotiLike v1
 

@@ -1,7 +1,6 @@
 import json
 from PyQt5 import QtWidgets, uic
 from PyQt5.QtWidgets import *
-from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from pynput import keyboard
@@ -22,7 +21,7 @@ import webbrowser
 sys.path.append(os.path.abspath("./utils/"))
 sys.path.append(os.path.abspath("./interfaces/"))
 
-import error_handler
+from error_handler import *
 
 logging.basicConfig(
     level=logging.INFO,
@@ -42,6 +41,12 @@ class Home(QtWidgets.QMainWindow):
         super(Home, self).__init__()
         uic.loadUi("uis/home.ui", self)
         self.show()
+
+        exceptionUncaught = UncaughtHook()
+        exceptionUncaught._exception_caught.connect(
+            lambda msg: self.notify(msg, "error")
+        )
+
         try:
             """Authorization"""
 
@@ -71,7 +76,7 @@ class Home(QtWidgets.QMainWindow):
         self.tray_icon.setIcon(QIcon("icon.ico"))
 
         show = QAction("🗝 Show", self)
-        logout = QAction("🌈 Assets", self)
+        logout = QAction("☠ Log out", self)
         quit_action = QAction("❌ Exit", self)
         reload_action = QAction("🔄 Reload", self)
         reload_action.triggered.connect(self.reload)
@@ -271,7 +276,8 @@ class Home(QtWidgets.QMainWindow):
         if icon == "error" or icon == "liked_songs":
             icon = "./assets/{}.ico".format(icon)
 
-        self.tray_icon.showMessage("SpotiLike", msg, QIcon(icon), 2000)
+        if self.settings_data["show_notif"]:
+            self.tray_icon.showMessage("SpotiLike", msg, QIcon(icon), 2000)
 
     def change_ui(self):
         current_text = self.selection.currentText()
@@ -325,6 +331,8 @@ class Home(QtWidgets.QMainWindow):
             "liked_songs",
         )
         os.remove("./.cache")
+        for x in os.listdir("./assets/playlists/"):
+            os.remove(os.path.join("./assets/playlists/", x))
         self.reload()
 
     def start_thread(self):
@@ -344,7 +352,7 @@ class Home(QtWidgets.QMainWindow):
         try:
             self.hotkeyz.restart()
         except AttributeError as e:
-            return
+            pass
 
         logging.info("Restarted hotkeyz")
         self.changesSaved = True
@@ -372,6 +380,7 @@ if __name__ == "__main__":
 
     app = QtWidgets.QApplication(sys.argv)
     app.setWindowIcon(QIcon("./icon.ico"))
+    app.setOrganizationName("Yeti")
 
     widget = main.MainWidget()
 
