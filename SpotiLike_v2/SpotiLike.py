@@ -47,26 +47,20 @@ class Home(QtWidgets.QMainWindow):
             lambda msg: self.notify(msg, "error")
         )
 
-        try:
-            """Authorization"""
+        """Authorization"""
 
-            self.sp = spotipy.Spotify(
-                auth_manager=SpotifyOAuth(
-                    client_id=CLIENT_ID,
-                    client_secret=CLIENT_SECRET,
-                    redirect_uri="http://localhost:9000",
-                    scope=scope,
-                )
+        self.sp = spotipy.Spotify(
+            auth_manager=SpotifyOAuth(
+                client_id=CLIENT_ID,
+                client_secret=CLIENT_SECRET,
+                redirect_uri="http://localhost:9000",
+                scope=scope,
             )
-        except Exception as e:
-            self.reload()
+        )
 
         logging.info("Authorised and verified credentials from localhost:9000")
 
-        try:
-            self.sp.me()
-        except Exception as e:
-            self.reload()
+        self.sp.me()
 
         logging.info("API called to verify user is authenticated.")
 
@@ -98,9 +92,7 @@ class Home(QtWidgets.QMainWindow):
 
         self.settings.clicked.connect(lambda: widget.setCurrentWidget(window_settings))
         self.home.clicked.connect(lambda: widget.setCurrentWidget(window_home))
-        self.help.clicked.connect(
-            lambda: webbrowser.open("https://yeti.ga/SpotiLike_2.0")
-        )
+        self.help.clicked.connect(lambda: webbrowser.open("https://yeti.ga/spotilike"))
         self.applyChanges.clicked.connect(self.reloadHotkeys)
         self.applyChanges.setEnabled(False)
         self.isHotkeyzRunning = False
@@ -118,6 +110,7 @@ class Home(QtWidgets.QMainWindow):
         self.image.setPixmap(resized)
 
         self.shortcut.textChanged.connect(self.change_shortcut)
+        self.shortcut.setDisabled(True)
 
         self.changesSaved = False
 
@@ -214,6 +207,7 @@ class Home(QtWidgets.QMainWindow):
 
         logging.info("Playlists and/or tracks downloaded.")
         widget.setWindowTitle("SpotiLike <3")
+        self.shortcut.setDisabled(False)
 
         self.playlists = value
 
