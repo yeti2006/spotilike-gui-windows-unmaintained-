@@ -60,7 +60,10 @@ class Home(QtWidgets.QMainWindow):
 
         logging.info("Authorised and verified credentials from localhost:9000")
 
-        self.sp.me()
+        try:
+            self.sp.me()
+        except Exception as e:
+            error_box(e)
 
         logging.info("API called to verify user is authenticated.")
 
@@ -269,6 +272,9 @@ class Home(QtWidgets.QMainWindow):
         # icon = f"./assets/liked_songs.ico" if icon=="like" else f"./assets/playlists/{icon}.ico"
         if icon == "error" or icon == "liked_songs":
             icon = "./assets/{}.ico".format(icon)
+
+        with open("./config/settings.json") as f:
+            self.settings_data = json.load(f)
 
         if self.settings_data["show_notif"]:
             self.tray_icon.showMessage("SpotiLike", msg, QIcon(icon), 2000)

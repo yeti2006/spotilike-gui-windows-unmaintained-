@@ -5,6 +5,26 @@ from PyQt5.QtCore import QObject, pyqtSignal
 from PyQt5.QtWidgets import QMessageBox
 
 
+class messageBox(QMessageBox):
+    def __init__(self):
+        super().__init__()
+
+    def closeEvent(self, event):
+        log.warning("Quitting application")
+        quit()
+
+
+def error_box(error: Exception):
+    msg = messageBox()
+    msg.setIcon(QMessageBox.Critical)
+    msg.setText("Mission failed successfully")
+    msg.setInformativeText(f"Error type:\n{error.__class__.__name__}")
+    msg.setWindowTitle("SpotiLike err :(")
+    msg.setDetailedText(f"The full exception is as follows:\n\n{error}")
+
+    msg.exec_()
+
+
 class UncaughtHook(QObject):
     """Emits a signal to _ everytime an unhandled exception is raised"""
 
