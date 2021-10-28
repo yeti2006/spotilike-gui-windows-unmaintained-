@@ -151,6 +151,7 @@ Here's a YouTube video:
 
 [![SpotiLike YT](https://img.youtube.com/vi/d__ibqcRHvI/0.jpg)](https://www.youtube.com/watch?v=d__ibqcRHvI)
 
+
 ![yeaa boi!](readme-assets/ss.png)(i pressed alt+4)
 
 Contains a settings page to adjust the behaviour of the application according to your preferences:
@@ -171,9 +172,9 @@ The source is a mess and I need to refactor everything, but you can check it out
 
 ## SpotiLike v1
 
-Feeling old and simple? You can download and install my first attempt in this project. It requires instructions so I suggest you head over to http://yeti.ga/SpotiLike for further instructions.
+Feeling old and simple? You can download and install my first attempt in this project. It requires instructions so I suggest you head over to https://yeti.ga/docs/spotilike_/v1/spotilikev1 for further instructions.
 
-(This doesn't has a gui, you have to write your configuration in a `config.ini` file and as mentioned, you'll find instructions in [here](http://yeti.ga/SpotiLike))
+(This doesn't has a gui, you have to write your configuration in a `config.ini` file and as mentioned, you'll find instructions in [here](https://yeti.ga/docs/spotilike_/v1/spotilikev1))
 
 ___
 
