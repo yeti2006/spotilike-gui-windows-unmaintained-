@@ -147,6 +147,10 @@ Here's what it basically does in _**one**_ screenshot:
 
 **Kind of a documentation**: https://yeti.ga/spotilike
 
+Here's a YouTube video:
+
+[![SpotiLike YT](https://img.youtube.com/vi/d__ibqcRHvI/0.jpg)](https://www.youtube.com/watch?v=d__ibqcRHvI)
+
 ![yeaa boi!](readme-assets/ss.png)(i pressed alt+4)
 
 Contains a settings page to adjust the behaviour of the application according to your preferences:
