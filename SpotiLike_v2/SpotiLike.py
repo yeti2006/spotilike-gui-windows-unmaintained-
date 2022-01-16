@@ -35,6 +35,9 @@ from format_hotkey import *
 
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public"  # Initliaze Scopes. To read, current playing
 
+CLIENT_ID = "d3bd878bdc174094b7ff3379d7a90613"
+CLIENT_SECRET = "0b5737066a654e759f5071033e663ba3"
+
 
 class Home(QtWidgets.QMainWindow):
     def __init__(self):
@@ -95,7 +98,9 @@ class Home(QtWidgets.QMainWindow):
 
         self.settings.clicked.connect(lambda: widget.setCurrentWidget(window_settings))
         self.home.clicked.connect(lambda: widget.setCurrentWidget(window_home))
-        self.help.clicked.connect(lambda: webbrowser.open("https://yeti.ga/spotilike"))
+        self.help.clicked.connect(
+            lambda: webbrowser.open("https://yeti2006.github.io/spotilike")
+        )
         self.applyChanges.clicked.connect(self.reloadHotkeys)
         self.applyChanges.setEnabled(False)
         self.isHotkeyzRunning = False
