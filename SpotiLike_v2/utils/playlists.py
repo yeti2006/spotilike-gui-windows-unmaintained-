@@ -1,5 +1,5 @@
 import os
-from pprint import pprint as p
+
 from urllib.request import urlretrieve
 import json
 import logging

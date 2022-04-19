@@ -32,8 +32,6 @@ logging.basicConfig(
 import thread, playlists
 from format_hotkey import *
 
-from pprint import pprint
-
 
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public"  # Initliaze Scopes. To read, current playing
 
