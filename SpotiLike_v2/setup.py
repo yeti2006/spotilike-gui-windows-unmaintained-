@@ -30,6 +30,8 @@ packages = [
     "string",
     "ctypes",
     "urllib.request",
+    "pynput.keyboard._xorg",
+    "pynput.mouse._xorg",
 ]
 options = {
     "build_exe": {

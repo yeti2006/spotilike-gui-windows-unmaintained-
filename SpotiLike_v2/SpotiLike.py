@@ -32,6 +32,8 @@ logging.basicConfig(
 import thread, playlists
 from format_hotkey import *
 
+from pprint import pprint
+
 
 scope = "user-read-playback-state user-library-modify user-library-read playlist-read-private playlist-modify-private playlist-modify-public"  # Initliaze Scopes. To read, current playing
 
@@ -148,24 +150,38 @@ class Home(QtWidgets.QMainWindow):
 
             self.playlist(value, tracks=self.settings_data["fetch_songs"])
 
-    def like(self, playlist: bool = False):
+    def like(self, playlist: bool = False, unlike: bool = False):
         """This method calls the API to add the current playing song to the user's liked songs library."""
 
         current = self.sp.current_playback()
+
         if not current or current["item"] is None:
             return self.notify("Not playing anything", "error")
-        try:
-            self.sp.current_user_saved_tracks_add(tracks=[current["item"]["id"]])
 
+        try:
             urlretrieve(
                 current["item"]["album"]["images"][0]["url"],
                 "./assets/song.ico",  # Download the cover image of the album
             )
 
-            if not playlist:
-                self.notify(
-                    f"❤ Saved [{current['item']['name']}] by {current['item']['album']['artists'][0]['name']} to Liked Songs."
-                )
+            if self.sp.current_user_saved_tracks_contains(
+                tracks=[current["item"]["id"]]
+            )[0]:
+                if not playlist:
+                    self.sp.current_user_saved_tracks_delete(
+                        tracks=[current["item"]["id"]]
+                    )
+                    return self.notify(
+                        f"💔 Unliked [{current['item']['name']}] by {current['item']['album']['artists'][0]['name']}"
+                    )
+
+            else:
+                self.sp.current_user_saved_tracks_add(tracks=[current["item"]["id"]])
+                if not playlist:
+                    self.notify(
+                        f"❤️ Liked [{current['item']['name']}] by {current['item']['album']['artists'][0]['name']}"
+                    )
+
         except Exception as e:
             self.notify(
                 f"An unexpected error occured. Error: {e}. | Please Try Again?", "error"

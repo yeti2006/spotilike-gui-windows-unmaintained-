@@ -1,1 +1,66 @@
-{}
+{
+    "My Playlist #24": {
+        "id": "1Rzw4o4Sfa0uaKsADd9jYE",
+        "image_url": "./assets/playlists/1Rzw4o4Sfa0uaKsADd9jYE.ico"
+    },
+    "New Playlist": {
+        "id": "0SCX0cliVNXzdEPLPxClKI",
+        "image_url": "./assets/playlists/0SCX0cliVNXzdEPLPxClKI.ico"
+    },
+    "My Playlist #21": {
+        "id": "7r5S1KAYSOuuhYK6szwPRQ",
+        "image_url": "./assets/playlists/7r5S1KAYSOuuhYK6szwPRQ.ico"
+    },
+    "Kill myself": {
+        "id": "2jhUB6xDrcJ4PNySex0Gmj",
+        "image_url": "./assets/playlists/2jhUB6xDrcJ4PNySex0Gmj.ico"
+    },
+    "DC alternative": {
+        "id": "5nShqgv2BXRj35oOhFeSzU",
+        "image_url": "./assets/playlists/5nShqgv2BXRj35oOhFeSzU.ico"
+    },
+    "YouTube": {
+        "id": "1aVElnvwUwMOcnzYLPLgC5",
+        "image_url": "./assets/playlists/1aVElnvwUwMOcnzYLPLgC5.ico"
+    },
+    "Chill": {
+        "id": "6kcwp0SJ0BMUAIRt5ezjLU",
+        "image_url": "./assets/playlists/6kcwp0SJ0BMUAIRt5ezjLU.ico"
+    },
+    "Dubstep 4 life <3": {
+        "id": "4DWgDHBUIsyR7sGpm08LY1",
+        "image_url": "./assets/playlists/4DWgDHBUIsyR7sGpm08LY1.ico"
+    },
+    "Test Playlist": {
+        "id": "586XcIMqh10SsxAT3GBm6j",
+        "image_url": "./assets/playlists/586XcIMqh10SsxAT3GBm6j.ico"
+    },
+    "Hyperpop <3": {
+        "id": "01HZ3A9NxKJNcKg6BPNOR6",
+        "image_url": "./assets/playlists/01HZ3A9NxKJNcKg6BPNOR6.ico"
+    },
+    "Dark // Eerie": {
+        "id": "350ZTKCqwgjaN7NmgOkCRi",
+        "image_url": "./assets/playlists/350ZTKCqwgjaN7NmgOkCRi.ico"
+    },
+    "Hardstyle favs <3": {
+        "id": "0aDWCQP2c8fAYIxuAQce0J",
+        "image_url": "./assets/playlists/0aDWCQP2c8fAYIxuAQce0J.ico"
+    },
+    "Dc": {
+        "id": "76MyZSi219GLCSf8cORK4F",
+        "image_url": "./assets/playlists/76MyZSi219GLCSf8cORK4F.ico"
+    },
+    "Keep": {
+        "id": "4Qh4ZtGLbW9YEIb04guRwY",
+        "image_url": "./assets/playlists/4Qh4ZtGLbW9YEIb04guRwY.ico"
+    },
+    "My Liked Songs final": {
+        "id": "0xoRte9LNUQSDau4YU06SO",
+        "image_url": "./assets/playlists/0xoRte9LNUQSDau4YU06SO.ico"
+    },
+    "": {
+        "id": "1rjYNgK0CrhTZi7TubZkK3",
+        "image_url": "./assets/playlists/1rjYNgK0CrhTZi7TubZkK3.ico"
+    }
+}

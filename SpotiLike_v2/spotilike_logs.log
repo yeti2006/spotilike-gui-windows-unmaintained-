@@ -1,0 +1,329 @@
+2022-02-03 12:38:41,051 [INFO] Authorised and verified credentials from localhost:9000
+2022-02-03 12:38:41,836 [INFO] API called to verify user is authenticated.
+2022-02-03 12:38:41,966 [INFO] Playlist thread started
+2022-02-03 12:38:50,305 [INFO] Downloaded 2jhUB6xDrcJ4PNySex0Gmj.ico
+2022-02-03 12:38:50,780 [INFO] Downloaded 5nShqgv2BXRj35oOhFeSzU.ico
+2022-02-03 12:38:51,271 [CRITICAL] Uncaught exception:
+ KeyError: 'liked_songs'
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 295, in change_ui
+    data["liked_songs"]
+KeyError: 'liked_songs'
+2022-02-03 12:38:51,581 [INFO] Downloaded 1aVElnvwUwMOcnzYLPLgC5.ico
+2022-02-03 12:38:52,207 [INFO] Downloaded 6kcwp0SJ0BMUAIRt5ezjLU.ico
+2022-02-03 12:38:53,124 [INFO] Downloaded 4DWgDHBUIsyR7sGpm08LY1.ico
+2022-02-03 12:38:53,453 [INFO] Downloaded 586XcIMqh10SsxAT3GBm6j.ico
+2022-02-03 12:38:54,098 [INFO] Downloaded 01HZ3A9NxKJNcKg6BPNOR6.ico
+2022-02-03 12:38:54,876 [INFO] Downloaded 350ZTKCqwgjaN7NmgOkCRi.ico
+2022-02-03 12:38:55,558 [INFO] Downloaded 0aDWCQP2c8fAYIxuAQce0J.ico
+2022-02-03 12:38:56,207 [INFO] Downloaded 76MyZSi219GLCSf8cORK4F.ico
+2022-02-03 12:38:56,939 [INFO] Downloaded 4Qh4ZtGLbW9YEIb04guRwY.ico
+2022-02-03 12:38:57,721 [INFO] Downloaded 0xoRte9LNUQSDau4YU06SO.ico
+2022-02-03 12:38:58,440 [INFO] Downloaded 1rjYNgK0CrhTZi7TubZkK3.ico
+2022-02-03 12:38:59,024 [INFO] Downloaded 6j3Zq4jJmkS3VPKt5zscxM.ico
+2022-02-03 12:38:59,748 [INFO] Downloaded 0Fi2U87HeE7dlny33xmkmj.ico
+2022-02-03 12:38:59,748 [INFO] Playlist icons downloaded
+2022-02-03 12:38:59,749 [INFO] Playlists obtained
+2022-02-03 12:38:59,749 [INFO] Playlists and/or tracks downloaded.
+2022-02-03 12:38:59,765 [INFO] Hotkey thread started.
+2022-02-03 12:39:20,583 [INFO] Signal received to like track.
+2022-02-03 12:39:32,319 [INFO] Signal received to like track.
+2022-02-03 12:39:43,167 [INFO] Restarting...
+2022-02-03 12:39:43,532 [INFO] Authorised and verified credentials from localhost:9000
+2022-02-03 12:39:43,532 [INFO] User authentication requires interaction with your web browser. Once you enter your credentials and give authorization, you will be redirected to a url.  Paste that url you were directed to to complete the authorization.
+2022-02-03 12:39:43,590 [INFO] Opened https://accounts.spotify.com/authorize?client_id=d3bd878bdc174094b7ff3379d7a90613&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A9000&scope=user-read-playback-state+user-library-modify+user-library-read+playlist-read-private+playlist-modify-private+playlist-modify-public in your browser
+2022-02-03 12:39:45,784 [INFO] API called to verify user is authenticated.
+2022-02-03 12:39:45,952 [INFO] Playlist thread started
+2022-02-03 12:39:48,975 [INFO] Hiding widget.
+2022-02-03 12:39:48,976 [INFO] Restarted hotkeyz
+2022-04-19 16:40:35,342 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:40:36,124 [INFO] API called to verify user is authenticated.
+2022-04-19 16:40:36,241 [INFO] Playlist thread started
+2022-04-19 16:40:44,817 [INFO] Downloaded 1Rzw4o4Sfa0uaKsADd9jYE.ico
+2022-04-19 16:40:44,818 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:40:45,465 [INFO] Downloaded 7r5S1KAYSOuuhYK6szwPRQ.ico
+2022-04-19 16:40:46,057 [INFO] Downloaded 2jhUB6xDrcJ4PNySex0Gmj.ico
+2022-04-19 16:40:46,451 [INFO] Downloaded 5nShqgv2BXRj35oOhFeSzU.ico
+2022-04-19 16:40:47,136 [INFO] Downloaded 1aVElnvwUwMOcnzYLPLgC5.ico
+2022-04-19 16:40:48,013 [INFO] Downloaded 6kcwp0SJ0BMUAIRt5ezjLU.ico
+2022-04-19 16:40:48,679 [INFO] Downloaded 4DWgDHBUIsyR7sGpm08LY1.ico
+2022-04-19 16:40:49,050 [INFO] Downloaded 586XcIMqh10SsxAT3GBm6j.ico
+2022-04-19 16:40:49,914 [INFO] Downloaded 01HZ3A9NxKJNcKg6BPNOR6.ico
+2022-04-19 16:40:50,868 [INFO] Downloaded 350ZTKCqwgjaN7NmgOkCRi.ico
+2022-04-19 16:40:51,851 [INFO] Downloaded 0aDWCQP2c8fAYIxuAQce0J.ico
+2022-04-19 16:40:52,770 [INFO] Downloaded 76MyZSi219GLCSf8cORK4F.ico
+2022-04-19 16:40:53,994 [INFO] Downloaded 4Qh4ZtGLbW9YEIb04guRwY.ico
+2022-04-19 16:40:55,046 [INFO] Downloaded 0xoRte9LNUQSDau4YU06SO.ico
+2022-04-19 16:40:55,717 [INFO] Downloaded 1rjYNgK0CrhTZi7TubZkK3.ico
+2022-04-19 16:40:55,717 [INFO] Playlist icons downloaded
+2022-04-19 16:40:55,717 [INFO] Playlists obtained
+2022-04-19 16:40:55,718 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:40:55,730 [INFO] Hotkey thread started.
+2022-04-19 16:41:18,291 [INFO] Signal received to like track.
+2022-04-19 16:41:18,563 [ERROR] HTTP Error for GET to https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing with Params: {} returned 400 due to Bad ID
+2022-04-19 16:41:18,564 [CRITICAL] Uncaught exception:
+ SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing:
+ Bad ID, reason: None
+Traceback (most recent call last):
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 245, in _internal_call
+    response.raise_for_status()
+  File "/usr/lib/python3.9/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 131, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 159, in like
+    print(self.sp.current_user_saved_tracks_contains(tracks=current))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 1268, in current_user_saved_tracks_contains
+    return self._get("me/tracks/contains?ids=" + ",".join(tlist))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 297, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 267, in _internal_call
+    raise SpotifyException(
+spotipy.exceptions.SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing:
+ Bad ID, reason: None
+2022-04-19 16:41:29,867 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:41:30,201 [INFO] API called to verify user is authenticated.
+2022-04-19 16:41:30,365 [INFO] Playlist thread started
+2022-04-19 16:41:37,793 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:41:37,793 [INFO] Playlist icons downloaded
+2022-04-19 16:41:37,794 [INFO] Playlists obtained
+2022-04-19 16:41:37,794 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:41:37,811 [INFO] Hotkey thread started.
+2022-04-19 16:41:40,891 [INFO] Signal received to like track.
+2022-04-19 16:41:41,190 [ERROR] HTTP Error for GET to https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing with Params: {} returned 400 due to Bad ID
+2022-04-19 16:41:41,190 [CRITICAL] Uncaught exception:
+ SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing:
+ Bad ID, reason: None
+Traceback (most recent call last):
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 245, in _internal_call
+    response.raise_for_status()
+  File "/usr/lib/python3.9/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 131, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 159, in like
+    print(self.sp.current_user_saved_tracks_contains(tracks=current))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 1268, in current_user_saved_tracks_contains
+    return self._get("me/tracks/contains?ids=" + ",".join(tlist))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 297, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 267, in _internal_call
+    raise SpotifyException(
+spotipy.exceptions.SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=device,shuffle_state,repeat_state,timestamp,context,progress_ms,item,currently_playing_type,actions,is_playing:
+ Bad ID, reason: None
+2022-04-19 16:43:27,805 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:43:28,186 [INFO] API called to verify user is authenticated.
+2022-04-19 16:43:28,310 [INFO] Playlist thread started
+2022-04-19 16:43:35,794 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:43:35,794 [INFO] Playlist icons downloaded
+2022-04-19 16:43:35,794 [INFO] Playlists obtained
+2022-04-19 16:43:35,794 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:43:35,811 [INFO] Hotkey thread started.
+2022-04-19 16:43:50,369 [INFO] Signal received to like track.
+2022-04-19 16:43:50,572 [CRITICAL] Uncaught exception:
+ AttributeError: 'dict' object has no attribute 'url'
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 131, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 159, in like
+    print(self.sp.current_user_saved_tracks_contains(tracks=current.url))
+AttributeError: 'dict' object has no attribute 'url'
+2022-04-19 16:45:18,853 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:45:19,142 [INFO] API called to verify user is authenticated.
+2022-04-19 16:45:19,271 [INFO] Playlist thread started
+2022-04-19 16:45:25,889 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:45:25,889 [INFO] Playlist icons downloaded
+2022-04-19 16:45:25,890 [INFO] Playlists obtained
+2022-04-19 16:45:25,890 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:45:25,902 [INFO] Hotkey thread started.
+2022-04-19 16:45:29,047 [INFO] Signal received to like track.
+2022-04-19 16:45:29,206 [CRITICAL] Uncaught exception:
+ KeyError: 'url'
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 131, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 159, in like
+    print(self.sp.current_user_saved_tracks_contains(tracks=current["url"]))
+KeyError: 'url'
+2022-04-19 16:47:13,677 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:47:14,185 [INFO] API called to verify user is authenticated.
+2022-04-19 16:47:14,312 [INFO] Playlist thread started
+2022-04-19 16:47:21,137 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:47:21,138 [INFO] Playlist icons downloaded
+2022-04-19 16:47:21,139 [INFO] Playlists obtained
+2022-04-19 16:47:21,139 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:47:21,156 [INFO] Hotkey thread started.
+2022-04-19 16:47:24,934 [INFO] Signal received to like track.
+2022-04-19 16:47:25,097 [CRITICAL] Uncaught exception:
+ KeyError: 'url'
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 133, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 162, in like
+    print(self.sp.current_user_saved_tracks_contains(tracks=current["url"]))
+KeyError: 'url'
+2022-04-19 16:48:22,462 [INFO] Hiding widget.
+2022-04-19 16:48:22,462 [WARNING] Stopping hotkey loop.
+2022-04-19 16:48:22,463 [INFO] Starting hotkey loop.
+2022-04-19 16:48:22,464 [INFO] Restarted hotkeyz
+2022-04-19 16:48:33,735 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:48:34,066 [INFO] API called to verify user is authenticated.
+2022-04-19 16:48:34,192 [INFO] Playlist thread started
+2022-04-19 16:48:43,436 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:48:43,437 [INFO] Playlist icons downloaded
+2022-04-19 16:48:43,437 [INFO] Playlists obtained
+2022-04-19 16:48:43,437 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:48:43,459 [INFO] Hotkey thread started.
+2022-04-19 16:48:45,221 [INFO] Signal received to like track.
+2022-04-19 16:48:45,509 [ERROR] HTTP Error for GET to https://api.spotify.com/v1/me/tracks/contains?ids=s,p,o,t,i,f,y,:,t,r,a,c,k,:,6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1 with Params: {} returned 400 due to Bad ID
+2022-04-19 16:48:45,509 [CRITICAL] Uncaught exception:
+ SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=s,p,o,t,i,f,y,:,t,r,a,c,k,:,6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1:
+ Bad ID, reason: None
+Traceback (most recent call last):
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 245, in _internal_call
+    response.raise_for_status()
+  File "/usr/lib/python3.9/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.spotify.com/v1/me/tracks/contains?ids=s,p,o,t,i,f,y,:,t,r,a,c,k,:,6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 133, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 163, in like
+    self.sp.current_user_saved_tracks_contains(tracks=current["item"]["uri"])
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 1268, in current_user_saved_tracks_contains
+    return self._get("me/tracks/contains?ids=" + ",".join(tlist))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 297, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 267, in _internal_call
+    raise SpotifyException(
+spotipy.exceptions.SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=s,p,o,t,i,f,y,:,t,r,a,c,k,:,6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1:
+ Bad ID, reason: None
+2022-04-19 16:50:10,692 [INFO] Hiding widget.
+2022-04-19 16:50:10,693 [WARNING] Stopping hotkey loop.
+2022-04-19 16:50:10,693 [INFO] Starting hotkey loop.
+2022-04-19 16:50:10,694 [INFO] Restarted hotkeyz
+2022-04-19 16:50:17,785 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:50:18,103 [INFO] API called to verify user is authenticated.
+2022-04-19 16:50:18,224 [INFO] Playlist thread started
+2022-04-19 16:50:25,105 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:50:25,105 [INFO] Playlist icons downloaded
+2022-04-19 16:50:25,106 [INFO] Playlists obtained
+2022-04-19 16:50:25,106 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:50:25,123 [INFO] Hotkey thread started.
+2022-04-19 16:50:26,643 [INFO] Signal received to like track.
+2022-04-19 16:50:26,926 [ERROR] HTTP Error for GET to https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1 with Params: {} returned 400 due to Bad ID
+2022-04-19 16:50:26,927 [CRITICAL] Uncaught exception:
+ SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1:
+ Bad ID, reason: None
+Traceback (most recent call last):
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 245, in _internal_call
+    response.raise_for_status()
+  File "/usr/lib/python3.9/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 133, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 162, in like
+    pprint(self.sp.current_user_saved_tracks_contains(tracks=current["item"]["id"]))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 1268, in current_user_saved_tracks_contains
+    return self._get("me/tracks/contains?ids=" + ",".join(tlist))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 297, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 267, in _internal_call
+    raise SpotifyException(
+spotipy.exceptions.SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1:
+ Bad ID, reason: None
+2022-04-19 16:50:51,438 [INFO] Hiding widget.
+2022-04-19 16:50:51,439 [WARNING] Stopping hotkey loop.
+2022-04-19 16:50:51,439 [INFO] Starting hotkey loop.
+2022-04-19 16:50:51,441 [INFO] Restarted hotkeyz
+2022-04-19 16:50:57,097 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:50:57,427 [INFO] API called to verify user is authenticated.
+2022-04-19 16:50:57,561 [INFO] Playlist thread started
+2022-04-19 16:51:04,162 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:51:04,163 [INFO] Playlist icons downloaded
+2022-04-19 16:51:04,163 [INFO] Playlists obtained
+2022-04-19 16:51:04,163 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:51:04,175 [INFO] Hotkey thread started.
+2022-04-19 16:51:06,075 [INFO] Signal received to like track.
+2022-04-19 16:51:06,365 [ERROR] HTTP Error for GET to https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1 with Params: {} returned 400 due to Bad ID
+2022-04-19 16:51:06,365 [CRITICAL] Uncaught exception:
+ SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1:
+ Bad ID, reason: None
+Traceback (most recent call last):
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 245, in _internal_call
+    response.raise_for_status()
+  File "/usr/lib/python3.9/site-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 133, in save
+    self.like()
+  File "/home/yeti/Documents/Code/SpotiLike_Project/SpotiLike_v2/SpotiLike.py", line 162, in like
+    pprint(self.sp.current_user_saved_tracks_contains(tracks=current["item"]["id"]))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 1268, in current_user_saved_tracks_contains
+    return self._get("me/tracks/contains?ids=" + ",".join(tlist))
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 297, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/yeti/.local/lib/python3.9/site-packages/spotipy/client.py", line 267, in _internal_call
+    raise SpotifyException(
+spotipy.exceptions.SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/me/tracks/contains?ids=6,L,H,h,a,W,s,0,H,z,u,P,h,f,l,D,W,i,V,t,p,1:
+ Bad ID, reason: None
+2022-04-19 16:51:42,581 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 16:51:42,925 [INFO] API called to verify user is authenticated.
+2022-04-19 16:51:43,063 [INFO] Playlist thread started
+2022-04-19 16:51:53,835 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 16:51:53,835 [INFO] Playlist icons downloaded
+2022-04-19 16:51:53,835 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 16:51:53,835 [INFO] Playlists obtained
+2022-04-19 16:51:53,848 [INFO] Hotkey thread started.
+2022-04-19 16:51:55,898 [INFO] Signal received to like track.
+2022-04-19 16:52:01,658 [INFO] Signal received to like track.
+2022-04-19 16:52:23,674 [INFO] Signal received to like track.
+2022-04-19 16:52:25,794 [INFO] Signal received to like track.
+2022-04-19 16:52:48,385 [INFO] Signal received to like track.
+2022-04-19 16:52:52,417 [INFO] Signal received to like track.
+2022-04-19 17:10:11,260 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 17:10:11,630 [INFO] API called to verify user is authenticated.
+2022-04-19 17:10:11,769 [INFO] Playlist thread started
+2022-04-19 17:10:18,609 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 17:10:18,609 [INFO] Playlist icons downloaded
+2022-04-19 17:10:18,610 [INFO] Playlists obtained
+2022-04-19 17:10:18,610 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 17:10:18,625 [INFO] Hotkey thread started.
+2022-04-19 17:10:30,636 [INFO] Signal received to like track.
+2022-04-19 17:10:34,372 [INFO] Signal received to like track.
+2022-04-19 17:11:49,598 [INFO] Authorised and verified credentials from localhost:9000
+2022-04-19 17:11:49,950 [INFO] API called to verify user is authenticated.
+2022-04-19 17:11:50,088 [INFO] Playlist thread started
+2022-04-19 17:11:57,003 [INFO] Downloaded 0SCX0cliVNXzdEPLPxClKI.ico
+2022-04-19 17:11:57,004 [INFO] Playlist icons downloaded
+2022-04-19 17:11:57,004 [INFO] Playlists obtained
+2022-04-19 17:11:57,004 [INFO] Playlists and/or tracks downloaded.
+2022-04-19 17:11:57,017 [INFO] Hotkey thread started.
+2022-04-19 17:12:08,475 [INFO] Signal received to like track.
+2022-04-19 17:12:12,643 [INFO] Signal received to like track.
+2022-04-19 17:12:19,475 [INFO] Signal received to like track.
+2022-04-19 17:12:22,363 [INFO] Signal received to like track.
+2022-04-19 17:20:43,269 [INFO] Signal received to like track.
+2022-04-19 17:20:48,588 [INFO] Signal received to like track.
