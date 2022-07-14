@@ -1,5 +1,5 @@
 <!-- 
-
+az
 [Click Me]: https://www.mediafire.com/file/xqdh8t7zxfdlonr/SpotiLike_Setup.rar/file
 
 Hello. 👋
@@ -138,6 +138,9 @@ ___
 (_huh what's that `SpotiLike 2.0` folder doing in the repo? nevermind about it. I attempted to create a gui version of this but I abandoned it because-_) -->
 
 # SpotiLike 💚
+
+# :warning: THIS PROJECT HAS BEEN ABANDONED. AND IS NO lONGER MAINTAINED. A SIMILAR VERSION OF THIS PROJECT WHICH CONSISTS OF A TUI(Text-User-Interface) is BEING DEVELOPED AT https://github.com/yeti2006/SpotiLike. THE SPOTIFY CREDENTIALS IN THE SOURCE CODE HAS BEEN REVOKED AND USERS WHO PREVIOUSLY USED THE PROJECT WOULD NO LONGER BE ABLE TO USE THE APP. FEEL FREE TO USE IT ON YOUR OWN.
+
 
 ## About
 
